@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento</title>
+    <style>
+        .container {
+            width: 200px;
+            height: 200px;
+            background: yellow;
+            position: relative;
+            top: 20px;
+        }
+        .item {
+            width: 20px;
+            height: 20px;
+            background: palevioletred;
+            position: absolute;
+            right: 0;/* coloca a la derecha */
+        }
+        nav {
+            width: 1000px;
+            height: 60px;
+            background: blue;
+            position: fixed;
+            top: 0;
+        }
+        ul p {
+            position: sticky;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav></nav>
+    <div class="container">
+        <div class="item"></div>
+    </div>
+    <p>El posicionamiento en CSS consiste en cómo un elemento se situará, con respecto a su elemento padre y al flujo normal del documento. El flujo normal del documento es el orden de los elementos establecidos en el HTML.
+
+        La posición del elemento se la define con la propiedad position, mediante los siguientes valores:
+        
+        static
+        relative
+        absolute
+        sticky
+        Tipos de posicionamiento en CSS
+        Propiedades de posición
+        Además de la propiedad position, existen cuatro propiedades del elemento de acuerdo a su posición con respecto a su padre, estas son: top (arriba), bottom (debajo), left (izquierda) y right (derecha).
+        
+        div {
+            top: 10px;
+            bottom: 15px;
+            left: 20px;
+            right: 10px;
+        }
+        Estos valores estarán establecidos en el padre próximo que tenga la posición relative.
+        
+        Si top y bottom están definidos, top gana. Si left y rigth están definidos, left gana (dependiendo el idioma configurado).
+        
+        Posición estática
+        La posición static es el valor por defecto de todo elemento HTML, consiste en respetar el flujo normal del documento donde las propiedades de posición no pueden ser establecidas.
+        
+        Ejemplo position static
+        Posición relative</p>
+        <ul>
+            <p>Frutas</p>
+            <li>Manzanas</li>
+            <li>Peras</li>
+            <li>Sandias</li>
+        </ul>
+
+        <ul>
+            <p>Frutas</p>
+            <li>Manzanas</li>
+            <li>Peras</li>
+            <li>Sandias</li>
+        </ul>
+
+        <ul>
+            <p>Frutas</p>
+            <li>Manzanas</li>
+            <li>Peras</li>
+            <li>Sandias</li>
+        </ul>
+
+        <ul>
+            <p>Frutas</p>
+            <li>Manzanas</li>
+            <li>Peras</li>
+            <li>Sandias</li>
+        </ul>
+
+        <ul>
+            <p>Frutas</p>
+            <li>Manzanas</li>
+            <li>Peras</li>
+            <li>Sandias</li>
+        </ul>
+
+        <ul>
+            <p>Frutas</p>
+            <li>Manzanas</li>
+            <li>Peras</li>
+            <li>Sandias</li>
+        </ul>
+
+        <ul>
+            <p>Frutas</p>
+            <li>Manzanas</li>
+            <li>Peras</li>
+            <li>Sandias</li>
+        </ul>
+
+        <ul>
+            <p>Frutas</p>
+            <li>Manzanas</li>
+            <li>Peras</li>
+            <li>Sandias</li>
+        </ul>
+
+        <ul>
+            <p>Frutas</p>
+            <li>Manzanas</li>
+            <li>Peras</li>
+            <li>Sandias</li>
+        </ul>
+
+        <ul>
+            <p>Frutas</p>
+            <li>Manzanas</li>
+            <li>Peras</li>
+            <li>Sandias</li>
+        </ul>
+
+        <ul>
+            <p>Frutas</p>
+            <li>Manzanas</li>
+            <li>Peras</li>
+            <li>Sandias</li>
+        </ul>
+
+        <ul>
+            <p>Frutas</p>
+            <li>Manzanas</li>
+            <li>Peras</li>
+            <li>Sandias</li>
+        </ul>
+</body>
+</html>
